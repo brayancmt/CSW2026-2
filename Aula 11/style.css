@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+
+titulo {
+    justify-content: center;
+
+}
+
+.sedan {
+    font-family: "Sedan", serif;
+    font-display: swap;
+    
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    
+}
+.lora {
+    font-family: "Lora", serif;
+    
+}
