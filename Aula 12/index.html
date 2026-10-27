@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 12</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="slide">
+        <h2>Alinhamento no Eixo Principal</h2>
+        <p class="descricao">Distribuindo o espaço vazio na direção principal.</p>
+
+        <p class="rotulo">flex-start</p>
+        <div class="barra jc-flex-start">
+            <div class="item"></div><div class="item"></div><div class="item"></div>
+        </div>
+
+        <p class="rotulo">flex-end</p>
+        <div class="barra jc-flex-end">
+            <div class="item"></div><div class="item"></div><div class="item"></div>
+        </div>
+
+        <p class="rotulo">center</p>
+        <div class="barra jc-center">
+            <div class="item"></div><div class="item"></div><div class="item"></div>
+        </div>
+
+        <p class="rotulo">space-between</p>
+        <div class="barra jc-space-between">
+            <div class="item"></div><div class="item"></div><div class="item"></div>
+        </div>
+
+        <p class="rotulo">space-around</p>
+        <div class="barra jc-space-around">
+            <div class="item"></div><div class="item"></div><div class="item"></div>
+        </div>
+        </section>
+
+        
+        <section class="slide">
+        <h2>Alinhamento no Eixo Transversal</h2>
+        <p class="descricao">
+            Controla o alinhamento dos itens no eixo secundário (vertical, se a direção for row).
+            Essencial para centralizar elementos de alturas diferentes.
+        </p>
+
+        <div class="painel">
+            <div class="coluna">
+            <p class="titulo-coluna">flex-start</p>
+            <div class="area ai-flex-start">
+                <div class="barra-alta a1"></div>
+                <div class="barra-alta a2"></div>
+                <div class="barra-alta a3"></div>
+            </div>
+            </div>
+
+            <div class="coluna">
+            <p class="titulo-coluna">center</p>
+            <div class="area ai-center">
+                <div class="barra-alta a1"></div>
+                <div class="barra-alta a2"></div>
+                <div class="barra-alta a3"></div>
+            </div>
+            </div>
+
+            <div class="coluna">
+            <p class="titulo-coluna">stretch</p>
+            <div class="area ai-stretch">
+                <div class="barra-alta a1"></div>
+                <div class="barra-alta a2"></div>
+                <div class="barra-alta a3"></div>
+            </div>
+            </div>
+
+            <div class="coluna">
+            <p class="titulo-coluna">flex-end</p>
+            <div class="area ai-flex-end">
+                <div class="barra-alta a1"></div>
+                <div class="barra-alta a2"></div>
+                <div class="barra-alta a3"></div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="slide">
+        <h2>O Alinhamento de Múltiplas Linhas</h2>
+
+        <br>
+
+        <div class="comparacao">
+            <div class="quadro">
+            <p class="titulo-quadro">flex-<span>start</span></p>
+            <div class="multilinhas ac-flex-start">
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+            </div>
+            </div>
+
+            <div class="quadro">
+            <p class="titulo-quadro">space-<span>between</span></p>
+            <div class="multilinhas ac-space-between">
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca larga"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+                <div class="peca"></div>
+            </div>
+            </div>
+        </div>
+        </section>
+
+    </main>
+
+    <a href="pagina2.html">Página 2</a>
+</body>
+</html>
