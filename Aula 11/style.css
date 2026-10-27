@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+
+.titulo {
+    justify-content: center;
+    font-size: 3em;
+}
+
+.sedan {
+    font-family: "Sedan", serif;
+    font-display: swap;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+.lora {
+    font-family: "Lora", serif;
+}
+
+@font-face {
+    font-family: "Top Secret" ;
+    src: url("fontes/Top\ Secret.ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LL Cooper";
+    src: url("fontes/LLCOOPER.TTF");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Gimme Danger";
+    src: url("fontes/Gimme\ Danger.ttf");
+    font-display: swap;
+}
+
+.top-secret {
+    font-family: "Top Secret";
+}
+
+.ll-cooper {
+    font-family: "LL Cooper";
+    a {
+        font-size: 1.5em;
+    }
+}
+
+.gimme-danger {
+    font-family: "Gimme Danger";
+}
+
+.link {
+    font-size: 2em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.link::before {
+    content: "\2739";
+    margin-right: 8px;
+    color: #ffcc00;
+}
+
+.link::after {
+    content: "\2739";
+    color: #ffcc00;
+    margin-right: 8px;
+}
+
+.link:hover {
+    color: #e0306a;
+}
+
+.link:active {
+    color: #f2a900;
+}
